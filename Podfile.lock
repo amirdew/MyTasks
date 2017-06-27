@@ -1,0 +1,15 @@
+PODS:
+  - CoreStore (4.0.5)
+  - Hero (0.3.6)
+
+DEPENDENCIES:
+  - CoreStore (~> 4.0)
+  - Hero (~> 0.3)
+
+SPEC CHECKSUMS:
+  CoreStore: 07e6cc86894eb80df9ce6fd0e54122df1ccaf531
+  Hero: d3c6f4dd80cdcdbb339be64e57ae3b5c3ab9938c
+
+PODFILE CHECKSUM: ef28f9f57bed70b6007eda17c0f211ca89534a92
+
+COCOAPODS: 1.2.0
