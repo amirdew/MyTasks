@@ -72,7 +72,7 @@
                                     <segue destination="TLi-S4-F63" kind="show" id="GhJ-0e-Idb"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S70-hb-sOV">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S70-hb-sOV">
                                 <rect key="frame" x="100" y="287.5" width="175" height="92"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emptyList" translatesAutoresizingMaskIntoConstraints="NO" id="UtD-AG-Hpj">
