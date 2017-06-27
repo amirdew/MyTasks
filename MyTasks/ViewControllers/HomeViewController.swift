@@ -51,6 +51,8 @@ class HomeViewController: UIViewController, ListObserver, UITableViewDelegate, U
         
         addMaskGradiantFotTableView()
         getUserNameIfNeeded()
+        
+        emptyListView.isHidden = tableView.numberOfRows(inSection: 0) > 0
     }
     
     
@@ -68,7 +70,6 @@ class HomeViewController: UIViewController, ListObserver, UITableViewDelegate, U
         tableView.estimatedRowHeight = 80
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.separatorStyle = .none
-        
     }
     
     
@@ -206,6 +207,8 @@ class HomeViewController: UIViewController, ListObserver, UITableViewDelegate, U
     
 
     // MARK: - UITableView
+    
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
