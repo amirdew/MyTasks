@@ -1,6 +1,6 @@
 # MyTasks
 Simple and easy Task Manager app for iOS.
-<br>Write in Xcode(8.3.3) and Swift(3.1)
+<br>Written with Xcode(8.3.3) and Swift(3.1)
 
 # How to run
 Download or clone project then run this command on terminal:
